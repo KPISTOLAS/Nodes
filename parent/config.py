@@ -16,7 +16,7 @@ LORA_GATEWAY_ADDRESS = 1        # Η διεύθυνση LoRa του ίδιου �
 
 # ---------- Επικύρωση / Φιλτράρισμα δεδομένων ----------
 VALID_RANGES = {
-    "temperature_c": (-30.0, 70.0),
+    "temperature_c": (-30.0, 80.0),
     "humidity_pct": (0.0, 100.0),
     "wind_speed_ms": (0.0, 60.0),
     "soil_moisture_pct": (0.0, 100.0),
